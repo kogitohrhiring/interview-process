@@ -1,7 +1,7 @@
-# interview-process
+# Interview Process Feedback backend service
 The back-end service for interview-process feedback REST APIs.
 
-# interviewDTO-process project
+# interview-process-feedback project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
