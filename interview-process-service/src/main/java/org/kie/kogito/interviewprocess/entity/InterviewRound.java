@@ -28,7 +28,7 @@ public class InterviewRound {
     private String interviewerId;
 
     @Column(name = "rating")
-    private int rating;
+    private Integer rating;
 
     @Column(name = "feedback_summary")
     private String feedbackSummary;
@@ -40,7 +40,7 @@ public class InterviewRound {
     public InterviewRound() {
     }
 
-    public InterviewRound(int interviewRoundId, int interviewId, int jobId, String interviewRoundName, String interviewerId, int rating, String feedbackSummary) {
+    public InterviewRound(int interviewRoundId, int interviewId, int jobId, String interviewRoundName, String interviewerId, Integer rating, String feedbackSummary) {
         this.interviewRoundId = interviewRoundId;
         this.interviewId = interviewId;
         this.jobId = jobId;
@@ -94,11 +94,11 @@ public class InterviewRound {
         this.interviewerId = interviewerId;
     }
 
-    public int getRating() {
+    public Integer getRating() {
         return rating;
     }
 
-    public void setRating(int rating) {
+    public void setRating(Integer rating) {
         this.rating = rating;
     }
 
